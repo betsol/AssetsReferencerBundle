@@ -1,0 +1,25 @@
+{
+    "name": "betsol/assets-referencer",
+    "type": "symfony-bundle",
+    "description": "Assets referencer extension for Symfony",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Slava Fomin II",
+            "email": "s.fomin@betsol.ru"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "require-dev": {
+        "symfony/dependency-injection": "~2.0",
+        "symfony/config": "~2.2",
+        "symfony/framework-bundle": "~2.1"
+    },
+    "autoload": {
+        "psr-0": { "Betsol\\Bundle\\AssetsReferencerBundle\\": "" }
+    },
+    "target-dir": "Betsol/Bundle/AssetsReferencerBundle",
+    "minimum-stability": "dev"
+}
