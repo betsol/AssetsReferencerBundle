@@ -7,6 +7,11 @@ use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Extension\Extension;
 use Symfony\Component\DependencyInjection\Loader\XmlFileLoader;
 
+/**
+ * Extension class.
+ *
+ * @author Slava Fomin II <s.fomin@betsol.ru>
+ */
 class AssetsReferencerExtension extends Extension
 {
     public function load(array $configs, ContainerBuilder $container)

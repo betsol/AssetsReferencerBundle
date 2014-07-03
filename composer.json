@@ -1,7 +1,7 @@
 {
-    "name": "betsol/assets-referencer",
+    "name": "betsol/assets-referencer-bundle",
     "type": "symfony-bundle",
-    "description": "Assets referencer extension for Symfony",
+    "description": "Assets referencer bundle for Symfony",
     "license": "MIT",
     "authors": [
         {

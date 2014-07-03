@@ -5,6 +5,11 @@ namespace Betsol\Bundle\AssetsReferencerBundle\DependencyInjection;
 use Symfony\Component\Config\Definition\Builder\TreeBuilder;
 use Symfony\Component\Config\Definition\ConfigurationInterface;
 
+/**
+ * Configuration class.
+ *
+ * @author Slava Fomin II <s.fomin@betsol.ru>
+ */
 class Configuration implements ConfigurationInterface
 {
     /**
